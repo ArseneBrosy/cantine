@@ -56,8 +56,8 @@ a, button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
-    margin: 10px 0 50px;
+    width: 100%;
+    margin: 20px 0 50px;
 }
 
 #date button {
