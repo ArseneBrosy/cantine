@@ -39,6 +39,8 @@ function refresh(doc) {
     menusLayout.innerHTML += htmlCard;
   }
   document.querySelector("#day-name").innerHTML = DAYS[today];
+  document.querySelector("#loading").style.display = "none";
+  document.querySelector("#main").style.display = "block";
 }
 
 function previousDay() {

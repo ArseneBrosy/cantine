@@ -77,3 +77,7 @@ footer {
     text-align: center;
     margin-top: 30px;
 }
+
+#loading p {
+    text-align: center;
+}
