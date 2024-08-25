@@ -23,11 +23,17 @@ a, button {
 }
 
 #menus {
-    width: fit-content;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     height: fit-content;
+}
+
+#menus > p {
+    width: 100%;
+    grid-column: span 2;
+    text-align: center;
 }
 
 .menu-card {
